@@ -6,7 +6,7 @@ segment .data
   SYS_EXIT  equ 0x1   ; chamada para finalizar o programa
   SYS_WRITE equ 0x4   ; operaçao de escrita
   SYS_READ  equ 0x3   ; operaçao de leitura
-  ;EAX
+  ;EBX
   RET_EXIT  equ 0x0   ; operaçao realizada com sucesso
   STD_OUT   equ 0x1   ; valor de saida padrao
   STD_IN    equ 0x0   ; valor de entrada padrao
